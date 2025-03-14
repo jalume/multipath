@@ -608,7 +608,7 @@ replacements for that path, see {{Section 5.1.2. of QUIC-TRANSPORT}}.
 Sending a PATH_RETIRE_CONNECTION_ID frame indicates that the connection ID
 will not be used anymore. In response, if the path is still open, the peer
 SHOULD provide new connection IDs using PATH_NEW_CONNECTION_ID frames.
-While it it expected that the peer provides at least one unused connection ID
+While it is expected that the peer provides at least one unused connection ID
 for all active paths using the PATH_NEW_CONNECTION_ID after retirement
 of an old connection ID, an endpoint MAY send
 a PATH_CIDS_BLOCKED (see {{paths-and-cids-blocked-frame}})
